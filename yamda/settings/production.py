@@ -10,7 +10,13 @@ DATABASES = {
         'USER': os.getenv("YAMDA_USER_PROD"),
         'PASSWORD': os.getenv("YAMDA_KEY_PROD"),
         'HOST': 'localhost',
-        'PORT': '5342',
+        'PORT': '',
     }
 }
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, '../static')
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, '../core/static/yamda/img/')
+
 

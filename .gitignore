@@ -3,3 +3,5 @@ __pycache__/
 .env
 yamda/settings/__init__.py
 core/migrations/00*
+bin/*
+run/*
