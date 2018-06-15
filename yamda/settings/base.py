@@ -76,16 +76,7 @@ WSGI_APPLICATION = 'yamda.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'yamda',
-        'USER': os.getenv("YAMDA_USER_PROD"),
-        'PASSWORD': os.getenv("YAMDA_KEY_PROD"),
-        'HOST': 'localhost',
-        'PORT': '',
-    }
-}
+DATABASES = None
 
 
 # Password validation
