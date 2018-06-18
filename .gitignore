@@ -7,3 +7,4 @@ bin/*
 run/*
 logs/*
 static/yamda/img/*
+core/static/yamda/img/*
