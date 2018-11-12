@@ -1,7 +1,7 @@
 from .base import *
 
 DEBUG = False
-ALLOWED_HOSTS = ['yamda.nl']
+ALLOWED_HOSTS = ['.yamda.nl']
 
 DATABASES = {
     'default': {

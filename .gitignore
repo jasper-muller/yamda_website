@@ -5,3 +5,6 @@ yamda/settings/__init__.py
 core/migrations/00*
 bin/*
 run/*
+logs/*
+static/yamda/img/*
+core/static/yamda/img/*
