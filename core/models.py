@@ -9,7 +9,7 @@ class HeadlineSection(models.Model):
     text = models.TextField()
 
     def __str__(self):
-        return self.text[:20]
+        return self.title
 
 class WorkSection(models.Model):
     title = models.CharField(max_length=200)
@@ -35,6 +35,13 @@ class AboutSection(models.Model):
         return self.title
 
 class ContactSection(models.Model):
+    title = models.CharField(max_length=200)
+    text = models.TextField()
+
+    def __str__(self):
+        return self.title
+
+class Section(models.Model):
     title = models.CharField(max_length=200)
     text = models.TextField()
 
